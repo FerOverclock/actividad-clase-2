@@ -59,3 +59,96 @@ public class HelloWorld
         Console.Write ("Hola! ");
     }
 }
+
+
+
+
+-------------------------ejercicio 5---------------------------------
+
+using System;
+
+public class HelloWorld
+{
+public static void Main(string[] args)
+{
+Console.WriteLine("Porfavor, digite un numero");
+int numero = int.Parse(Console.ReadLine());
+
+    switch (numero)
+    {
+        case 1:
+            Console.WriteLine("Monday");
+            break;
+        case 2:
+            Console.WriteLine("Tuesday");
+            break;
+        case 3:
+            Console.WriteLine("Wednesday");
+            break;
+        case 4:
+            Console.WriteLine("Thursday");
+            break;
+        case 5:
+            Console.WriteLine("Friday");
+            break;
+        case 6:
+            Console.WriteLine("Saturday");
+            break;
+        case 7:
+            Console.WriteLine("Sunday");
+            break;
+    }
+}
+}
+
+---------------------------Ejercicio 6--------------------------------
+using System;
+
+public class HelloWorld
+{
+public static void Main(string[] args)
+{
+int day = 4;
+switch (day)
+{
+case 6:
+Console.WriteLine("Saturday");
+break;
+case 7:
+Console.WriteLine("Sunday");
+break;
+default:
+Console.WriteLine("Looking forward to the weekend");
+break;
+}
+}
+}
+
+escanear con un botón conectividad con un scanner
+
+
+
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+class Person
+{
+    private string name;
+    public string Name
+    {
+        get {return name; }
+        set { name = value; }
+    }
+    
+    public static void Main(string[] args)
+    {
+       Person myObj = new Person();
+       myObj.Name = "liam";
+       Console.WriteLine(myObj.Name);
+    }
+}
+
+
