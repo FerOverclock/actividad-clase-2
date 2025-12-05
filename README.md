@@ -127,7 +127,7 @@ break;
 escanear con un botón conectividad con un scanner
 
 
-
+--------------------------------------------------------
 
 // Online C# Editor for free
 // Write, Edit and Run your C# code using C# Online Compiler
@@ -150,5 +150,29 @@ class Person
        Console.WriteLine(myObj.Name);
     }
 }
+-----------------------------------------------------
+using System;
+class Car
+{
+    public string model = "Mustang";
+}
+class Program
+{
+        static void Main(string[] args)
+        {
+            Car myObj = new Car();
+            Console.WriteLine(myObj.model);
+        }
+}
 
-
+--------------------------------------------------------
+using System;
+class Car
+{
+    private string model = "Mustang";
+        static void Main(string[] args)
+        {
+            Car myObj = new Car();
+            Console.WriteLine(myObj.model);
+        }
+}
